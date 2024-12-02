@@ -17,4 +17,5 @@ Este proyecto es un bot de Telegram que permite vincular usuarios mediante un `u
 Estos valores tienen que ser reemplazados por unos validos.
 
 TOKEN = config("TELEGRAM_TOKEN")
+
 cred = credentials.Certificate(config("FIREBASE_CREDENTIALS"))
