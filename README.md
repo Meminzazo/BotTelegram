@@ -14,8 +14,11 @@ Este proyecto es un bot de Telegram que permite vincular usuarios mediante un `u
 2. **Credenciales válidas de Firebase.** El archivo JSON con las credenciales de tu base de datos debe ser descargado desde tu consola de Firebase.
 3. **Token del bot de Telegram.** Obtenido desde [BotFather](https://core.telegram.org/bots#botfather).
 
-Estos valores tienen que ser reemplazados por unos validos.
+### Estos valores tienen que ser reemplazados por unos validos.
 
 TOKEN = config("TELEGRAM_TOKEN")
 
 cred = credentials.Certificate(config("FIREBASE_CREDENTIALS"))
+
+### Y DESCARGAR LAS CREDENCIALES:
+appubicacion-firebase-adminsdk.json
