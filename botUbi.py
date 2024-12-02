@@ -4,12 +4,12 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 
 # Configuración de Firebase
-cred = credentials.Certificate("appubicacion-419723-firebase-adminsdk-2gcz2-d91f7c63ac.json")
+cred = credentials.Certificate("credenciales_de_la_base_de_datos.json")
 if not firebase_admin._apps:
     firebase_admin.initialize_app(cred)
 db = firestore.client()
 
-TOKEN = "6861684395:AAHvcC2wktHTsjL1104a7AoM88A6I74yS3E"
+TOKEN = "6token_para_el_bot"
 
 # Función que maneja el comando /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
